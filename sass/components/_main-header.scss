@@ -14,9 +14,9 @@
   letter-spacing: 0.03em;
   color: $TextColor;
   padding: 16px 0;
-}
-.logo__text {
-  color: $focusColor;
+  &__text {
+    color: $focusColor;
+  }
 }
 
 .main-nav {
