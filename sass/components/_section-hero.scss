@@ -1,0 +1,53 @@
+.section-hero {
+  position: relative;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/sobranie.jpg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: $footerandheroColor;
+}
+.section-hero__title {
+  width: 696px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $backgroundWhitecolor;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-hero__button {
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  background-color: $focusColor;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  color: $backgroundWhitecolor;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $hoverColor;
+  }
+}
