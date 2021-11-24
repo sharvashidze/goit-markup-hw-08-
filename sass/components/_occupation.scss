@@ -1,6 +1,12 @@
 .occupation {
   padding-top: 94px;
   padding-bottom: 94px;
+  @media screen and (max-width: 479px) {
+    display: none;
+  }
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    display: none;
+  }
 }
 .occupation__title {
   font-weight: 700;
