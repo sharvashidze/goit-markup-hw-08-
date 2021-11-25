@@ -51,3 +51,44 @@
 //     background-color: $hoverColor;
 //   }
 // }
+.section-hero {
+  margin: 0 auto;
+  padding-bottom: 118px;
+  padding-top: 118px;
+  text-align: center;
+  background-color: $footerandheroColor;
+}
+.section-hero__title {
+  font-style: normal;
+  max-width: 360px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $backgroundWhitecolor;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-hero__button {
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  background-color: $focusColor;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  color: $backgroundWhitecolor;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $hoverColor;
+  }
+}
