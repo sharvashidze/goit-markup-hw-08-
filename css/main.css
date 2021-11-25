@@ -573,8 +573,36 @@ img {
   margin-bottom: 30px;
 }
 
+.team__list {
+  display: block;
+}
+
+.team__list--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 479px) {
+  .team__list--list {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .team__item {
   max-width: 450px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 .team__item:not(:last-child) {
@@ -585,6 +613,78 @@ img {
   .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
+}
+
+@media screen and (max-width: 360px) {
+  .team__person {
+    padding: 24px 0;
+  }
+}
+
+@media screen and (min-width: 361px) {
+  .team__person {
+    padding: 24px 122px;
+  }
+}
+
+.team__person-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #212121;
+}
+
+.team__person-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #757575;
+}
+
+.team__block:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team__link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__link:hover {
+  background-color: #2196f3;
+}
+
+@media screen and (max-width: 479px) {
+  .team__link {
+    max-width: 44px;
+  }
+}
+
+.team__icon {
+  fill: #afb1b8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__link:hover .team__icon {
+  fill: #ffffff;
 }
 
 .products {
