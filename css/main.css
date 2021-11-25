@@ -28,6 +28,7 @@ ul {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 img {
@@ -717,13 +718,6 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
-  .customers__item {
-    margin: 15px;
-    width: calc((100%-4 * 15px) / 2);
-  }
-}
-
 .customers__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -734,7 +728,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 210px;
   height: 92px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
