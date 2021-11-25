@@ -1,5 +1,11 @@
 .main-header {
   border-bottom: 1px solid $borderColor;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  background-color: $backgroundWhitecolor;
 }
 .conteiner__header {
   display: flex;
