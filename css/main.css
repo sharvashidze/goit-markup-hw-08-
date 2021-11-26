@@ -127,11 +127,24 @@ img {
 
 .section-hero {
   max-width: 768px;
+  max-height: 400px;
   margin: 0 auto;
   padding-bottom: 118px;
   padding-top: 118px;
   text-align: center;
   background-color: #2f303a;
+  background-image: url(../images/sobranie.480@1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: url(../images/sobranie.960@2x.jpg);
+  }
 }
 
 .section-hero__title {
