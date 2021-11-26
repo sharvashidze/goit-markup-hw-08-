@@ -98,7 +98,7 @@
 }
 .networks__item--after::after {
   content: "";
-  border: 1vh solid rgba(33, 33, 33, 0.2);
+  border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
   margin-left: 10px;
 }
