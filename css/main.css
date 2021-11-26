@@ -1082,7 +1082,7 @@ img {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 48px 0 48px 40px;
+  padding: 48px 40px;
   background-color: #ffffff;
   z-index: 1000;
   -webkit-transform: translateX(100%);
