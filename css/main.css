@@ -123,6 +123,7 @@ img {
           align-items: center;
   margin-left: auto;
   cursor: pointer;
+  border: none;
 }
 
 .section-hero {
