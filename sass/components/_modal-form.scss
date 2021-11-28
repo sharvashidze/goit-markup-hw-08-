@@ -7,7 +7,7 @@
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: $TextColor;
@@ -80,8 +80,8 @@
 .form__text-egree {
   display: inline-flex;
   align-items: center;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: $mainColor;
 }
@@ -98,7 +98,7 @@
 }
 .form__icon-block {
   display: inline-block;
-  width: 16px;
+  min-width: 16px;
   height: 15px;
   border: 2px solid $TextColor;
   border-radius: 2px;
