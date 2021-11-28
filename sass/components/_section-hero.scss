@@ -10,7 +10,7 @@
 //       to right,
 //       rgba(47, 48, 58, 0.4),
 //       rgba(47, 48, 58, 0.4)
-//     ),
+// //     ),
 //     url(../images/sobranie.jpg);
 //   padding-top: 200px;
 //   padding-bottom: 200px;
@@ -52,21 +52,54 @@
 //   }
 // }
 .section-hero {
-  max-width: 768px;
+  max-width: 1600px;
   max-height: 400px;
   margin: 0 auto;
   padding-bottom: 118px;
   padding-top: 118px;
   text-align: center;
   background-color: $footerandheroColor;
-  background-image: url(../images/sobranie.480@1.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/sobranie.480@1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/sobranie.960@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/sobranie.768@1x.jpg);
+  }
   @media (min-resolution: 2dppx) {
-    background-image: url(../images/sobranie.960@2x.jpg);
+    .section-hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/sobranie.1536@2x.jpg);
+    }
   }
 }
 .section-hero__title {
