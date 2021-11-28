@@ -1,6 +1,6 @@
 .products {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
   &__is-hidden {
     position: absolute;
     width: 1px;
@@ -15,11 +15,12 @@
 }
 .products__list {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .products__item:not(:last-child) {
   margin-right: 8px;
+  margin-bottom: 15px;
 }
 .products__buttons {
   display: inline-block;

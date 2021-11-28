@@ -26,6 +26,16 @@
     <header class="main-header">
       <div class="conteiner conteiner__header">
         <a href="" class="logo"><span class="logo__text">Web</span>Studio</a>
+        <buton
+          class="main-header__block js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="24" height="16" class="main-header__icon">
+            <use href="./images/symbol-defs.svg#icontelmenu"></use>
+          </svg>
+        </buton>
         <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item">
@@ -299,6 +309,55 @@
         </div>
       </section>
     </main>
+    <div class="menu js-menu-container" id="mobile-menu">
+      <button type="button" class="menu__button js-close-menu">
+        <svg width="18" height="18" class="menu__iconX">
+          <use href="./images/symbol-defs.svg#iconmenuX"></use>
+        </svg>
+      </button>
+
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="./index.html" class="menu__link">Студия</a>
+        </li>
+        <li class="menu__item">
+          <a href="./portfolio.html" class="menu__link"
+            ><span class="menu__text">Портфолио</span></a
+          >
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu__link">Контакты</a>
+        </li>
+      </ul>
+
+      <ul class="menu-contacts__list">
+        <li class="menu-contacts__item">
+          <a href="tell:+380961111111" class="menu-contacts__tel"
+            >+38 096 111 11 11</a
+          >
+        </li>
+        <li class="menu-contacts__item">
+          <a href="mailto:info@devstudio.com" class="menu-contacts__mail">
+            info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="networks">
+        <li class="networks__item networks__item--after">
+          <a href="" class="networks__link">Instagram</a>
+        </li>
+        <li class="networks__item networks__item--after">
+          <a href="" class="networks__link">Twitter</a>
+        </li>
+        <li class="networks__item networks__item--after">
+          <a href="" class="networks__link">Facebook</a>
+        </li>
+        <li class="networks__item">
+          <a href="" class="networks__link">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
     <!--✌️Нижняя часть страницы🤞-->
     <footer class="footer__page">
       <div class="conteiner conteiner__block">
@@ -370,6 +429,7 @@
         </form>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
