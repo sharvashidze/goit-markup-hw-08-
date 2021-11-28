@@ -50,6 +50,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+
 .main-header {
   border-bottom: 1px solid #ececec;
   position: fixed;
@@ -82,6 +88,12 @@ img {
 
 .logo__text {
   color: #2196f3;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo {
+    margin-right: 88px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -124,6 +136,12 @@ img {
   margin-left: auto;
   cursor: pointer;
   border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main-header__block {
+    display: none;
+  }
 }
 
 .main-header__icon {
