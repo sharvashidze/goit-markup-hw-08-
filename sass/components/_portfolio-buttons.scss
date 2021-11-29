@@ -17,10 +17,18 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
 }
 .products__item:not(:last-child) {
   margin-right: 8px;
   margin-bottom: 15px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 0;
+  }
 }
 .products__buttons {
   display: inline-block;

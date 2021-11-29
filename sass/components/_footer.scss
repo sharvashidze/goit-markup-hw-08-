@@ -10,8 +10,19 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
 }
 .footer__block {
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 165px;
+  }
+}
+.footer__block2 {
   margin-bottom: 60px;
 }
 .footer__logo {
@@ -36,9 +47,9 @@
   color: $backgroundWhitecolor;
   margin-bottom: 8px;
 }
-// .footer__item:not(:last-child) {
-//   margin-bottom: 9px;
-// }
+.footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
 .footer__link {
   font-style: normal;
   font-size: 14px;
@@ -122,6 +133,10 @@
     background-color: $footerandheroColor;
   }
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 450px;
+    margin-right: 0;
+  }
 }
 .slogan__btn {
   display: inline-flex;
