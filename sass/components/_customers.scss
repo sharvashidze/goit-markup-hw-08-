@@ -1,6 +1,10 @@
 .customers {
   padding-bottom: 60px;
   padding-top: 60px;
+  @media screen and(min-width:1200px) {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .customers__title {
@@ -10,6 +14,11 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
+  @media screen and(min-width:1200px) {
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
 }
 .customers__list {
   flex-wrap: wrap;
@@ -29,6 +38,11 @@
     margin-left: -30px;
     margin-top: -30px;
   }
+  @media screen and(min-width:1200px) {
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-top: 0;
+  }
   & > .customers__item {
     @media screen and (max-width: 479px) {
       flex-basis: calc(100% / 2 -30px);
@@ -44,6 +58,12 @@
       flex-basis: calc(100% / 3 -30px);
       margin-left: 30px;
       margin-top: 30px;
+    }
+    @media screen and(min-width:1200px) {
+      width: 170px;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
     }
   }
 }

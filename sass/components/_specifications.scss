@@ -12,12 +12,22 @@
     clip: rect(0 0 0 0);
     text-align: center;
   }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .Specifications__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
 .Specifications__item {
   max-width: 450px;
@@ -31,6 +41,12 @@
     flex-basis: calc(100% / 2 -30px);
     margin-top: 30px;
     margin-left: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
 .Specifications__icon {

@@ -6,6 +6,10 @@
     margin-top: -30px;
     margin-left: -30px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-top: -30px;
+    margin-left: -30px;
+  }
 }
 .cards__item {
   max-width: 450px;
@@ -22,6 +26,13 @@
     margin-top: 30px;
     flex-basis: calc(100% / 2 -30px);
     max-width: 354px;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 3 -30px);
+    max-width: 370px;
     margin-bottom: 0;
   }
   // margin-right: 30px;
@@ -65,6 +76,9 @@
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding: 49px 24px;
+  }
+  @media screen and(min-width:1200px) {
+    padding: 63px 24px;
   }
 }
 .cards__text {
