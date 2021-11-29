@@ -137,6 +137,17 @@
 }
 .contacts__icon {
   margin-right: 8px;
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
+  }
+}
+.contacts__icontel {
+  margin-right: 8px;
+  @media screen and (min-width: 1200px) {
+    width: 10px;
+    height: 16px;
+  }
 }
 .main-header__block {
   width: 40px;

@@ -251,6 +251,24 @@ img {
   margin-right: 8px;
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts__icon {
+    width: 16px;
+    height: 12px;
+  }
+}
+
+.contacts__icontel {
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__icontel {
+    width: 10px;
+    height: 16px;
+  }
+}
+
 .main-header__block {
   width: 40px;
   height: 40px;
